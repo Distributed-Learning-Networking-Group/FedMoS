@@ -235,7 +235,6 @@ if __name__ == '__main__':
         print("Testing accuracy: {:.2f}".format(acc_test))
 
     # results
-    # torch.save(ut_glob, 'u_parameter2_'+args.model+'_'+args.dataset+'.pt')
     workbook = xlwt.Workbook()
     worksheet1 = workbook.add_sheet('loss')
     # worksheet2 = workbook.add_sheet('acc_train')
