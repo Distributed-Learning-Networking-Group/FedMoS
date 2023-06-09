@@ -164,7 +164,6 @@ if __name__ == '__main__':
     for iter in range(args.epochs):
         net_glob.train()
 
-        # loss_locals = []
         if not args.all_clients:
             w_locals = []
         m = max(int(args.frac * args.num_users), 1)
